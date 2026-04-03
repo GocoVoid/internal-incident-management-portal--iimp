@@ -53,9 +53,9 @@ const SLAStatus = ({ slaDueAt, isSlaBreached, status, remainingTime }) => {
   return (
     <div className="flex items-center gap-1.5">
       <span className={`w-2 h-2 rounded-full ${urgent ? 'bg-orange-400 animate-pulse' : 'bg-green-400'}`} />
-      <span className={`text-xs font-semibold ${urgent ? 'text-orange-600' : 'text-green-600'}`}>
+      {/* <span className={`text-xs font-semibold ${urgent ? 'text-orange-600' : 'text-green-600'}`}>
         {hrs > 0 ? `${hrs}h ${mins}m remaining` : `${mins}m remaining`}
-      </span>
+      </span> */}
       <span className="text-xs text-gray-400">· Due {formatDateTime(slaDueAt)}</span>
     </div>
   );
