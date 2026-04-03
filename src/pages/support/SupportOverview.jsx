@@ -160,7 +160,7 @@ const SupportOverview = () => {
                     </span>
                     <PriorityBadge priority={t.priority} />
                     <StatusBadge   status={t.status}   />
-                    <SLAChip slaDueAt={t.slaDueAt} isSlaBreached={t.isSlaBreached} />
+                    {/* <SLAChip slaDueAt={t.slaDueAt} isSlaBreached={t.isSlaBreached} /> */}
                   </li>
                 ))}
               </ul>
