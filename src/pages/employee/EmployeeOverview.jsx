@@ -155,7 +155,7 @@ const EmployeeOverview = () => {
                       {t.title}
                     </span>
 
-                    <span className="hidden sm:block">
+                    {/* <span className="hidden sm:block"> */}
                     {/* <SLAChip
                       slaDueAt={t.slaDueAt}
                       isSlaBreached={t.isSlaBreached}
