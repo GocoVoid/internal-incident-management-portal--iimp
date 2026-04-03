@@ -156,11 +156,11 @@ const EmployeeOverview = () => {
                     </span>
 
                     <span className="hidden sm:block">
-                    <SLAChip
+                    {/* <SLAChip
                       slaDueAt={t.slaDueAt}
                       isSlaBreached={t.isSlaBreached}
                       status={t.status}
-                    /></span>
+                    /></span> */}
 
                     <PriorityBadge priority={t.priority} />
                     <StatusBadge  status={t.status} />
